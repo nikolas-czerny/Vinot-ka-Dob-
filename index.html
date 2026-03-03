@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vinotéka Dobříš | Víno, dárkové balíčky a delikatesy</title>
+  <meta
+    name="description"
+    content="Stylová vinotéka v Dobříši. Kvalitní vína, dárkové balíčky, delikatesy a osobní doporučení."
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a href="#top" class="logo">
+        <span class="logo-mark">V</span>
+        <span class="logo-text">
+          <strong>Vinotéka Dobříš</strong>
+          <small>víno • dárky • delikatesy</small>
+        </span>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Otevřít menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="site-nav" id="siteNav">
+        <a href="#nabidka">Nabídka</a>
+        <a href="#darky">Dárky</a>
+        <a href="#prodejna">Prodejna</a>
+        <a href="#kontakt">Kontakt</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-overlay"></div>
+      <div class="container hero-inner">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Vinotéka v Dobříši</p>
+          <h1>Dobré víno, krásné dárky a příjemný výběr bez zmatku.</h1>
+          <p class="hero-text">
+            Přijďte si vybrat víno pro radost, oslavu i jako stylový dárek.
+            Rádi poradíme osobně a připravíme i dárkové balení.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#kontakt" class="btn btn-primary">Navštívit prodejnu</a>
+            <a href="#darky" class="btn btn-secondary">Dárkové balíčky</a>
+          </div>
+
+          <div class="hero-badges">
+            <div class="badge">
+              <strong id="openStatus">Otevírací dobu ověřte</strong>
+              <span>Pražská 110, Dobříš</span>
+            </div>
+            <div class="badge">
+              <strong>Osobní doporučení</strong>
+              <span>Víno, delikatesy, dárkové sady</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-card reveal">
+          <div class="hero-card-inner">
+            <p class="card-label">Co u nás najdete</p>
+
+            <div class="hero-list">
+              <div>
+                <strong>Výběr vín</strong>
+                <span>Bílá, červená, růžová i dárková vína</span>
+              </div>
+              <div>
+                <strong>Dárkové balení</strong>
+                <span>Balíčky pro oslavy, firmy i osobní dárky</span>
+              </div>
+              <div>
+                <strong>Delikatesy</strong>
+                <span>Sýry, dobroty a další doplňky k vínu</span>
+              </div>
+            </div>
+
+            <a href="#kontakt" class="mini-link">Zobrazit kontakt a cestu →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="nabidka">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Nabídka</p>
+          <h2>Jednoduchý výběr místo zbytečného chaosu</h2>
+          <p>
+            Stránka má návštěvníka rychle dovést k tomu, co potřebuje:
+            láhev na večer, dárek, nebo doporučení do konkrétní příležitosti.
+          </p>
+        </div>
+
+        <div class="cards-grid">
+          <article class="info-card reveal">
+            <div class="icon-circle">🍷</div>
+            <h3>Víno pro každou příležitost</h3>
+            <p>
+              Výběr lahví na běžný večer, oslavu, návštěvu i reprezentativní dárek.
+            </p>
+          </article>
+
+          <article class="info-card reveal">
+            <div class="icon-circle">🎁</div>
+            <h3>Dárkové sady a koše</h3>
+            <p>
+              Elegantní řešení, když chceš někoho potěšit něčím osobnějším než běžným dárkem.
+            </p>
+          </article>
+
+          <article class="info-card reveal">
+            <div class="icon-circle">🧀</div>
+            <h3>Delikatesy k vínu</h3>
+            <p>
+              Doplňky, které z běžné láhve udělají hezký zážitek nebo hotový dárkový balíček.
+            </p>
+          </article>
+
+          <article class="info-card reveal">
+            <div class="icon-circle">🤝</div>
+            <h3>Osobní doporučení</h3>
+            <p>
+              Když si nejsi jistý výběrem, obchod tě má dovést i přes osobní přístup, ne jen přes regál.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-dark" id="darky">
+      <div class="container gifts-layout">
+        <div class="gifts-copy reveal">
+          <p class="eyebrow">Dárkové balíčky</p>
+          <h2>Dárek, který nepůsobí obyčejně</h2>
+          <p>
+            Tuhle sekci bych dal na web výrazně, protože právě dárkové sady
+            a balíčky často přivádí zákazníky, kteří chtějí vyřešit nákup rychle a hezky.
+          </p>
+
+          <ul class="check-list">
+            <li>Vhodné pro narozeniny, návštěvy a firemní pozornosti</li>
+            <li>Možnost kombinace vína a delikates</li>
+            <li>Rychlá domluva přímo na prodejně nebo telefonicky</li>
+          </ul>
+
+          <a class="btn btn-primary" href="#kontakt">Zeptat se na balíček</a>
+        </div>
+
+        <div class="gift-showcase reveal">
+          <div class="gift-box large">
+            <span>Dárkový box</span>
+          </div>
+          <div class="gift-box small">
+            <span>Láhev + delikatesa</span>
+          </div>
+          <div class="gift-box small">
+            <span>Firemní dárek</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="prodejna">
+      <div class="container store-layout">
+        <div class="store-gallery reveal">
+          <div class="gallery-card tall">Fotka prodejny</div>
+          <div class="gallery-card">Láhve / regály</div>
+          <div class="gallery-card">Dárkové balení</div>
+        </div>
+
+        <div class="store-info reveal">
+          <p class="eyebrow">Prodejna</p>
+          <h2>Místo, kde člověk rychle ví, kam jet</h2>
+          <p>
+            Tahle část musí být extrémně praktická. Na mobilu má návštěvník během
+            5 vteřin vidět adresu, otevíračku a tlačítko pro navigaci.
+          </p>
+
+          <div class="hours-card">
+            <div class="hours-top">
+              <strong>Otevírací doba</strong>
+              <span id="hoursState" class="hours-state">Ověřte aktuální stav</span>
+            </div>
+
+            <ul class="hours-list">
+              <li><span>Pondělí</span><span>9:00–18:00</span></li>
+              <li><span>Úterý</span><span>9:00–18:00</span></li>
+              <li><span>Středa</span><span>9:00–18:00</span></li>
+              <li><span>Čtvrtek</span><span>9:00–18:00</span></li>
+              <li><span>Pátek</span><span>9:00–18:00</span></li>
+              <li><span>Sobota</span><span>9:00–12:00</span></li>
+              <li><span>Neděle</span><span>Zavřeno</span></li>
+            </ul>
+
+            <p class="hours-note">
+              * Před spuštěním ostré verze ověř přesnou sobotní otevíračku s majitelem.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="kontakt">
+      <div class="container contact-layout">
+        <div class="contact-copy reveal">
+          <p class="eyebrow">Kontakt</p>
+          <h2>Zastavte se osobně nebo se ozvěte</h2>
+          <p>
+            U lokálního byznysu je tohle nejdůležitější conversion blok.
+            Žádné složitosti. Jedno kliknutí a člověk volá, naviguje nebo píše.
+          </p>
+
+          <div class="contact-actions">
+            <a href="tel:+420775132747" class="btn btn-primary">Zavolat</a>
+            <a
+              href="https://maps.google.com/?q=Pra%C5%BEsk%C3%A1+110%2C+Dob%C5%99%C3%AD%C5%A1"
+              class="btn btn-secondary"
+              target="_blank"
+              rel="noopener"
+            >
+              Navigovat
+            </a>
+          </div>
+        </div>
+
+        <div class="contact-card reveal">
+          <div class="contact-row">
+            <span>Adresa</span>
+            <strong>Pražská 110, Dobříš</strong>
+          </div>
+          <div class="contact-row">
+            <span>Telefon</span>
+            <strong>+420 775 132 747</strong>
+          </div>
+          <div class="contact-row">
+            <span>Instagram / Facebook</span>
+            <strong>@vinoteka_dobris</strong>
+          </div>
+
+          <div class="map-embed">
+            <iframe
+              title="Mapa provozovny"
+              src="https://www.google.com/maps?q=Pra%C5%BEsk%C3%A1%20110,%20Dob%C5%99%C3%AD%C5%A1&output=embed"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Vinotéka Dobříš</p>
+      <a href="#top">Zpět nahoru ↑</a>
+    </div>
+  </footer>
+
+  <script src="scrypt.js"></script>
+</body>
+</html>
